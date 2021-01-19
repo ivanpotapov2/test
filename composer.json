@@ -1,0 +1,25 @@
+{
+  "name": "3jy/vacancy",
+  "type": "project",
+  "license": "Proprietary",
+  "support": {
+    "source": "https://github.com/3jy/vacancy"
+  },
+  "autoload": {
+    "psr-4": {"application\\": ""}
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.2",
+    "ext-pdo": "*"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "require-dev": {
+    "codeception/codeception": "^2.5"
+  }
+}
